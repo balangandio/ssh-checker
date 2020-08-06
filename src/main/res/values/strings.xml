@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SSHchecker</string>
+    <string name="activity_file_explorer">File</string>
+    <string name="activity_ssh_list">SSHs</string>
+    <string name="checker_service">CheckerService</string>
+
+    <string name="titleDelimiterDialog">Delimitador</string>
+    <string name="titleThreadsDialog">Threads</string>
+
+    <string name="strFixedDialogTitle">Fixed Params</string>
+    <string name="strCheckBoxFixed">Usar parâmetros fixos</string>
+    <string name="strUser">User</string>
+    <string name="strPass">Pass</string>
+    <string name="strPort">Port</string>
+
+    <string name="strClipBoardEmpty">Nada a colar!</string>
+    <string name="strClipBoardNonText">Conteúdo não do tipo texto</string>
+
+    <string name="msgPortInvalido">Port inválido!</string>
+    <string name="msgQtdThreadsNaoNumerica">Qtd. threads não numérica!</string>
+    <string name="msgServiceDisconnet">Conexão com serviço perdida!</string>
+    <string name="msgSucessoAoSalvar">Resultado salvo em arquivo!</string>
+    <string name="msgErroAoSalvar">Error ao salvar resultado em arquivo!</string>
+    <string name="msgErroAoSalvarDir">Error ao criar diretório.</string>
+    <string name="msgCopiado">Copiado.</string>
+
+    <string name="btnFixedParams">Fixed</string>
+    <string name="btnArq">Arquivo...</string>
+    <string name="btnSshs">SSHs</string>
+    <string name="btnCheck">Check</string>
+    <string name="btnCheckChecking">Checking...</string>
+    <string name="btnCheckChecked">Checked!</string>
+    <string name="btnCheckStopped">Interrompido</string>
+    <string name="btnCheckStop">Interromper</string>
+    <string name="btnCheckStopping">Interrompendo...</string>
+    <string name="btnLog">Log</string>
+    <string name="btnColar">Colar</string>
+    <string name="btnDelimitador">Sep</string>
+    <string name="btnThreads">Threads</string>
+
+    <string name="btnOkFileExplorer">Ok</string>
+    <string name="btnUpFileExplorer">Up</string>
+
+    <string name="titleTabSshs">SSHs</string>
+    <string name="titleTabOns">ONs</string>
+    <string name="titleTabOffs">OFFs</string>
+    <string name="titleTabError">Error</string>
+</resources>

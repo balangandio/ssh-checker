@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:background="@color/colorBg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnArq"
+            android:id="@+id/btnArq"
+            android:onClick="onClickBtnArq" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnFixedParams"
+            android:id="@+id/btnFixedParams"
+            android:onClick="onClickBtnFixedParams" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnColar"
+            android:id="@+id/btnColar"
+            android:onClick="onClickBtnColar" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDelimitador"
+            android:text="@string/btnDelimitador"
+            android:onClick="onClickBtnDelimitador" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="20dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnSshs"
+                android:id="@+id/btnSshs"
+                android:onClick="onClickBtnSshs" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnThreads"
+            android:id="@+id/btnThreads"
+            android:onClick="onClickBtnThreads" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCheck"
+            android:id="@+id/btnCheck"
+            android:onClick="onClickBtnCheck" />
+    </LinearLayout>
+</LinearLayout>
